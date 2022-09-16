@@ -1,4 +1,6 @@
 "use strict"
+
+///////////////////Начало Задачи №3////////////////////////////////
 let root = document.querySelector('.root');
 
 function renderWaterfall(rootNode, columnCount, elementGap) {
@@ -52,3 +54,5 @@ function renderWaterfall(rootNode, columnCount, elementGap) {
 }
 
 renderWaterfall(root,3, 5);
+
+///////////////////Конец Задачи №3////////////////////////////////
